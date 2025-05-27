@@ -14,26 +14,32 @@ import NEIcon from './assets/ne.svg';
 // import KWIcon from './assets/kw.svg';
 import './App.scss'
 
+// 判断是不是Https
+const https = window.location.protocol === "https:";
+
 function App() {
   useEffect(() => {
     if (!KWMUSIC) return;
-    axios.get(`https://m.kuwo.cn/newh5/singles/songinfoandlrc?musicId=${KWMUSIC}`).then(res => {
+    axios.get(`https://${apiUrl}/newh5/singles/songinfoandlrc?musicId=${KWMUSIC}`).then(res => {
       setSongName(res.data.data.songinfo.songName)
-      setImgUrl(res.data.data.songinfo.pic)
+      const tempImgUrl = https ? res.data.data.songinfo.pic.replace("http://img1.kwcdn.kuwo.cn/", "https://proxy.m.g-o.top/") : res.data.data.songinfo.pic;
+      setImgUrl(tempImgUrl)
       if (document.title !== res.data.data.songinfo.songName) {
         document.title = res.data.data.songinfo.songName
         // 修改icon为歌曲封面
-        if (res.data.data.songinfo.pic) {
+        if (tempImgUrl) {
           const link = (document.querySelector("link[rel*='icon']") || document.createElement('link')) as HTMLLinkElement;
           link.type = 'image/x-icon';
           link.rel = 'shortcut icon';
-          link.href = res.data.data.songinfo.pic;
+          link.href = tempImgUrl;
           document.getElementsByTagName('head')[0].appendChild(link);
         }
       }
     });
   }, [])
 
+
+  const [apiUrl, _] = useState("m.kuwo.cn");
   const [songName, setSongName] = useState("");
   const [imgUrl, setImgUrl] = useState("");
   const [picTop, setPicTop] = useState(0);
