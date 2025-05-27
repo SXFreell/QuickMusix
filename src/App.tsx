@@ -22,7 +22,7 @@ function App() {
     if (!KWMUSIC) return;
     axios.get(`https://${apiUrl}/newh5/singles/songinfoandlrc?musicId=${KWMUSIC}`).then(res => {
       setSongName(res.data.data.songinfo.songName)
-      const tempImgUrl = https ? res.data.data.songinfo.pic.replace("http://img1.kwcdn.kuwo.cn/", "https://proxy.m.g-o.top/") : res.data.data.songinfo.pic;
+      const tempImgUrl = https ? res.data.data.songinfo.pic.replace("http://img1.kwcdn.kuwo.cn/", "https://proxym.g-o.top/") : res.data.data.songinfo.pic;
       setImgUrl(tempImgUrl)
       if (document.title !== res.data.data.songinfo.songName) {
         document.title = res.data.data.songinfo.songName
