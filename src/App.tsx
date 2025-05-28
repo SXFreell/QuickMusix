@@ -104,8 +104,6 @@ function App() {
 
   // 监听页面大小变化
   useEffect(() => {
-    // 初始计算一次
-    handleResize();
     // 添加监听
     window.addEventListener('resize', handleResize);
 
@@ -119,7 +117,7 @@ function App() {
     <>
       <div className="quickmusix">
         {songName ? <>
-        <img className="bgpic" id="bgpic" src={imgUrl} alt={songName} />
+        <img className="bgpic" id="bgpic" onLoad={handleResize} src={imgUrl} alt={songName} />
         <img className="pic" id="pic" style={{ marginTop: picTop }} src={imgUrl} alt={songName} />
         <div className="nameContent">
           <span className="name">{songName}</span>
