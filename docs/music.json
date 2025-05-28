@@ -1,0 +1,26 @@
+[
+    {
+        "id": "b60ab8896ad84eef",
+        "name": "MyGO!!!!! - 影色舞",
+        "qm": "001BnKRK1oo2g1",
+        "ne": "2003330146",
+        "kg": "{\"bitrate\":128,\"duration\":209,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 影色舞\",\"hash\":\"509294de008939af3e9416d6a908f382\"}",
+        "qs": "7160599191243196418",
+        "img": {
+            "type": "ne",
+            "data": "uPrg7P49eNw3dxQupzk8qg==/109951170476639461"
+        }
+    },
+    {
+        "id": "2f154b5e9c498700",
+        "name": "MyGO!!!!! - 春日影",
+        "qm": "004Fy3wu3A1gHG",
+        "ne": "2097486090",
+        "kg": "{\"bitrate\":128,\"duration\":256,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 春日影\",\"hash\":\"8e83bf91e143c3574fcf3f5716f249e5\"}",
+        "qs": "7286943669050705922",
+        "img": {
+            "type": "ne",
+            "data": "_0rz5AVl1HMq0_FBnRHSbA==/109951170225711695"
+        }
+    }
+]
