@@ -21,6 +21,7 @@ export interface Music {
     ne?: string,
     kg?: string,
     qs?: string,
+    am?: string,
     img: {
         type: ImgType,
         data: string,

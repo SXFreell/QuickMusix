@@ -1,6 +1,6 @@
 // 获取地址栏的参数
 const urlParams = new URLSearchParams(window.location.search);
-const ID = urlParams.get('id');
+const ID = urlParams.get('id') ? urlParams.get('id')?.toUpperCase() : "";
 // const KWMUSIC = urlParams.get('kw');
 
 import { Button } from "@arco-design/web-react";
@@ -10,6 +10,7 @@ import QQIcon from './assets/qq.svg';
 import NEIcon from './assets/ne.svg';
 import KGIcon from './assets/kg.svg';
 import QSIcon from './assets/qs.svg';
+import AMIcon from './assets/am.svg';
 // import KWIcon from './assets/kw.svg';
 // import type { ImgType, GlobalConfig, Server } from "./interface";
 import type { ImgType, GlobalConfig, Server, Music } from "./interface";
@@ -17,6 +18,8 @@ import './App.scss'
 
 // 判断是不是Https
 // const https: boolean = window.location.protocol === "https:";
+// 判断是不是Apple
+const isApple: boolean = /Mac|iPod|iPhone|iPad/.test(navigator.userAgent);
 
 // 获取配置
 const config: GlobalConfig = JSON.parse(localStorage.getItem("config") || "{}");
@@ -68,6 +71,7 @@ function App() {
         music.ne && setNEMUSIC(music.ne);
         music.kg && setKGMUSIC(music.kg);
         music.qs && setQSMUSIC(music.qs);
+        music.am && setAMMUSIC(music.am);
         document.title = music.name;
         const tempImgUrl: string = getMusicImage(music.img.type, music.img.data);
         if (tempImgUrl) {
@@ -88,6 +92,7 @@ function App() {
   const [NEMUSIC, setNEMUSIC] = useState("");
   const [KGMUSIC, setKGMUSIC] = useState("");
   const [QSMUSIC, setQSMUSIC] = useState("");
+  const [AMMUSIC, setAMMUSIC] = useState("");
 
   const [songName, setSongName] = useState("");
   const [imgUrl, setImgUrl] = useState("");
@@ -136,6 +141,9 @@ function App() {
           { QSMUSIC ? <Button type="primary" className={"button"} icon={<img width={16} src={QSIcon} />} onClick={() => {
             window.open(`luna://luna.com/playing?track_id=${QSMUSIC}`, '_self')
           }}>汽水音乐播放</Button> : <></> }
+          { AMMUSIC ? <Button type="primary" className={"button"} icon={<img width={16} src={AMIcon} />} onClick={() => {
+            window.open(`${isApple ? "" : "apple-"}music://music.apple.com/cn/album/${AMMUSIC}&ls&autoplay=true`, '_self')
+          }}>Apple Music 播放</Button> : <></> }
         </div>
       </div>
     </>

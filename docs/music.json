@@ -1,26 +1,132 @@
 [
     {
-        "id": "b60ab8896ad84eef",
-        "name": "MyGO!!!!! - 影色舞",
+        "id": "345733CF1B0EC60A",
+        "name": "影色舞",
         "qm": "001BnKRK1oo2g1",
         "ne": "2003330146",
         "kg": "{\"bitrate\":128,\"duration\":209,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 影色舞\",\"hash\":\"509294de008939af3e9416d6a908f382\"}",
         "qs": "7160599191243196418",
+        "am": "1783599950?i=1783599951",
         "img": {
             "type": "ne",
             "data": "uPrg7P49eNw3dxQupzk8qg==/109951170476639461"
-        }
+        } 
     },
     {
-        "id": "2f154b5e9c498700",
-        "name": "MyGO!!!!! - 春日影",
+        "id": "8BF262959512E1FB",
+        "name": "春日影",
         "qm": "004Fy3wu3A1gHG",
         "ne": "2097486090",
         "kg": "{\"bitrate\":128,\"duration\":256,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 春日影\",\"hash\":\"8e83bf91e143c3574fcf3f5716f249e5\"}",
         "qs": "7286943669050705922",
+        "am": "1783644603?i=1783644617",
         "img": {
             "type": "ne",
             "data": "_0rz5AVl1HMq0_FBnRHSbA==/109951170225711695"
+        }
+    },
+    {
+        "id": "17C9D8BA26D18386",
+        "name": "碧天伴走",
+        "qm": "000gPZce4Zpyfx",
+        "ne": "2074119582",
+        "kg": "{\"bitrate\":128,\"duration\":218,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 碧天伴走\",\"hash\":\"5ff480d9fc123057fa674449251b6e44\"}",
+        "qs": "7250086423788881921",
+        "am": "1783622702?i=1783622708",
+        "img": {
+            "type": "ne",
+            "data": "rLZhOb-9mSTh_F_Ox0je8w==/109951170225583931"
+        }
+    },
+    {
+        "id": "53B0740C99BE6B4F",
+        "name": "迷星叫",
+        "qm": "001TJsF320hMhE",
+        "ne": "2131509441",
+        "kg": "{\"bitrate\":128,\"duration\":211,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - マヨイウタ\",\"hash\":\"83fcdbb417f29c3ce061cee1df0a4cd7\"}",
+        "qs": "7164303114709780482",
+        "am": "1768009408?i=1768009413",
+        "img": {
+            "type": "ne",
+            "data": "ZAaJcS3_RSF3D9qWZn9_DQ==/109951170225361123"
+        }
+    },
+    {
+        "id": "D70C30546068FA67",
+        "name": "迷路日々",
+        "qm": "000BMW8Q0QGjeE",
+        "ne": "2079886688",
+        "kg": "{\"bitrate\":128,\"duration\":215,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 迷路日々\",\"hash\":\"7104a0575f7941a36842b8a1dff1440f\"}",
+        "qs": "7264642778834995201",
+        "am": "1783644603?i=1783645039",
+        "img": {
+            "type": "ne",
+            "data": "Z7hS8LVanw9g0EodnX1gdQ==/109951170223393794"
+        }
+    },
+    {
+        "id": "252A795E0F021704",
+        "name": "壱雫空",
+        "qm": "001Ql8nn2TVmek",
+        "ne": "2060086839",
+        "kg": "{\"bitrate\":128,\"duration\":189,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 壱雫空\",\"hash\":\"803c6b02b2b1f7eaba5f6e6b02316671\"}",
+        "qs": "7242646050832631809",
+        "am": "1777382323?i=1777382324",
+        "img": {
+            "type": "ne",
+            "data": "A8n94Pitm500xJDctblC9A==/109951170100039329"
+        }
+    },
+    {
+        "id": "4B3F796596923E54",
+        "name": "詩超絆",
+        "qm": "004NHJKx0zFHZ3",
+        "ne": "2078062132",
+        "kg": "{\"bitrate\":128,\"duration\":237,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 詩超絆\",\"hash\":\"cc8037f252165d1d9fe292e885612a36\"}",
+        "qs": "7258342073904269313",
+        "am": "1783498125?i=1783498251",
+        "img": {
+            "type": "ne",
+            "data": "-IpHWpVhILiITc9huio4gw==/109951170223399090"
+        }
+    },
+    {
+        "id": "C97C4E7CBD4F6195",
+        "name": "焚音打",
+        "qm": "0030ZGy51gUaae",
+        "ne": "2653560495",
+        "kg": "{\"bitrate\":128,\"duration\":242,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 焚音打\",\"hash\":\"bdb427b4cfe0f135bf731ee8c98db253\"}",
+        "qs": "7253051442470553601",
+        "am": "1783541009?i=1783541012",
+        "img": {
+            "type": "ne",
+            "data": "H-uvuZfvKaWLJC7JVOlUuw==/109951170223970837"
+        }
+    },
+    {
+        "id": "036E81A69FBD2026",
+        "name": "聿日箋秋",
+        "qm": "000HJTeW3gxknS",
+        "ne": "2695382683",
+        "kg": "{\"bitrate\":128,\"duration\":236,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 聿日箋秋\",\"hash\":\"17118388bc745e233c5f87535f440c18\"}",
+        "qs": "7480898733287753729",
+        "am": "1807236514?i=1807236517",
+        "img": {
+            "type": "ne",
+            "data": "7E-XfInVH7BVnMQeplT5xA==/109951170727102499"
+        }
+    },
+    {
+        "id": "66F730A630CBC4DB",
+        "name": "栞",
+        "qm": "004DeDIV2CkQE3",
+        "ne": "2060083093",
+        "kg": "{\"bitrate\":128,\"duration\":266,\"extname\":\"mp3\",\"filename\":\"MyGO!!!!! - 栞\",\"hash\":\"43dc584b789a7ca6e30a414132906ec8\"}",
+        "qs": "7242645966368147458",
+        "am": "1783498841?i=1783498842",
+        "img": {
+            "type": "ne",
+            "data": "3aB04xBmVpbILDAP2G7_sw==/109951170223387968"
         }
     }
 ]
